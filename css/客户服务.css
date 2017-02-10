@@ -1,0 +1,78 @@
+/*布局样式*/
+body{ background: #fff;}
+
+/* 公共样式 */
+.clear{ overflow: hidden; _zoom:1; }
+.fl{ float: left; }
+.fr{ float: right; }
+
+#content .item_list{ width: 125px; list-style: none;}
+#content .item_list li{ height: 24px; line-height: 24px; font-size: 12px; padding-left: 10px; background: url(../img/客户服务/bg2.gif)repeat-x;  }
+#content .item_list a{ text-decoration: none; color: #000; font-size: 12px;}
+#content .item_list a:hover{ color: #c7000a; }
+
+ul{ list-style: none; padding: 0;}
+
+#content .item_hover .item_list{ display: none; }
+
+/* 结构样式*/
+#content #text{ overflow: hidden; width: 426px; height: 54px; position: absolute; left: 320px; top: 14px; font-size: 22px; color: #c7000a; font-weight: bold; }
+#content #text ul{ width: 680px; position: absolute; left: 0; }
+#content #text li{ float: left; width: 340px;}
+
+#content .gn_section, #content .yewu_section, #content .touzi_section, #content .rengong_section, #content .baojia_section{ position: absolute; }
+#content .gn_section{ left: 65px; top: 180px;}
+#content .yewu_section{ left: 243px; top: 118px;}
+#content .touzi_section{ left: 388px; top: 118px;}
+#content .rengong_section{ right: 319px; top: 470px;}
+#content .baojia_section{ right: 100px; top: 360px;}
+
+#header, #content, #footer{ width: 950px; margin: 0 auto; position: relative;}
+#header{ height: 60px; background: url(../img/客户服务/top_logo.gif)no-repeat; }
+#content{ height: 650px; background: url(../img/客户服务/bj19.jpg)no-repeat;}
+#footer{ height: 84px; background: url(../img/客户服务/del.jpg)no-repeat;}
+
+#header a.shouye, #header a.return{ display: inline-block; position: absolute;}
+#header a.shouye{ width: 278px; height: 36px; left: 16px; top: 8px;}
+#header a.return{ width: 108px; height: 28px; right: 15px; top: 12px;}
+
+#content .kefu_serve{ width: 435px; height: 185px; border-radius: 4px; background: url(../img/客户服务/bei.gif)no-repeat; position: absolute; left: 227px; top: 274px;}
+#content .serve_top{ width: 372px; height: 108px; padding: 8px 0 0 34px; }
+#content .serve_top img{ width: 80px; height: 80px; }
+.serve_top form{ width: 256px; height: 96px; margin-top: 12px; }
+.serve_top textarea{ font-size: 12px; resize: none; width: 256px; height: 40px; line-height: 40px;}
+.serve_top p{ line-height: 30px; font-size: 12px; }
+.serve_top .tijiao_btn{ width: 50px; height: 25px; border: none; background: url(../img/客户服务/icon_@e6@8f@90@e9@97@ae2.gif)no-repeat; }
+.serve_top span{ font-size: 12px;  }
+#content .serve_bottom{  height: 69px; }
+.serve_bottom h3{ font-size: 12px; margin: 0; padding-left: 16px; margin-left: 35px; color: #bc0021; background: url(../img/客户服务/dot.gif)no-repeat left 3px; }
+.serve_bottom ul{ list-style: none; margin: 0; padding-left: 34px;}
+.serve_bottom li{ float: left; width: 128px; height: 22px; line-height: 22px; font-size: 12px;}
+.serve_bottom li a{ padding-left: 10px; margin-right: 10px; font-size: 12px; color: #000; text-decoration: none; background: url(../img/客户服务/pic_dot2.gif)no-repeat 4px 2px; }
+.serve_bottom li a:hover{ color: #a7000c; }
+.serve_bottom .last_more{ background-image: none; }
+
+#content .gonggao{ width: 110px; height: 27px; position: absolute; left: 200px; top: 40px; }
+#content .video{ display: inline-block; width: 110px; height: 30px; position: absolute; right: 267px; top:116px;}
+#content .gongneng, #content .yewu, #content .rengong, #content .baojia{ width: 125px; height: 30px;}
+#content .touzi{  width: 156px; height: 30px; }
+#content .touzi_section li{ width: 146px; height: 24px; }
+
+#content .serve_web, #content .ask, #content .licai_books, #content .more { display: inline-block; }
+#content .rjxz_img, #content .serve_web, #content .ask, #content .licai_books, #content .more{ position: absolute; }
+#content .rjxz_img{ width: 125px; height: 67px; left: 106px; bottom: 126px; }
+#content .serve_web{ width: 97px; height: 28px; left: 268px; bottom: 100px; }
+#content .ask{ width: 97px; height: 28px; left: 370px; bottom: 100px;}
+#content .licai_books{ width: 97px; height: 28px; right: 120px; bottom: 92px;} 
+#content .more{ width: 105px; height: 26px; right: 106px; bottom: 10px; background: url(../img/客户服务/gd.gif)no-repeat;} 
+
+#footer .footer_link, #footer .yanzheng, #footer .chengxin{  position: absolute; }
+#footer .footer_link{ line-height: 14px; font-size: 14px; width: 700px; left: 13px; top: 43px; }
+#footer .footer_link a{ text-decoration: none; color: #706e6f; font-size: 12px; padding-right: 10px; margin-right: 10px; border-right: 1px solid #706e6f; }
+#footer .footer_link .last{ border-right: none; cursor: default;}
+#footer .footer_link span{ float: right; font-size: 12px; color: #706e6f;}
+#footer .yanzheng{ right: 125px; top: 28px; }
+#footer .chengxin{ right: 20px; top: 29px; }
+#footer .yanzheng img{ width: 99px; height: 37px; }
+#footer .chengxin img{ width: 95px; height: 35px;}
+

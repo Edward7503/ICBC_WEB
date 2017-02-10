@@ -1,0 +1,22 @@
+/* 个人业务和企业业务 底部公共样式*/
+#content .kefu_serve{ width: 998px; height: 188px; border: 1px solid #ffffff; position: relative; background: #eeeeee; }
+#content .kefu_serve .kefu_item_list{ overflow: hidden; _zoom:1; position: absolute; left: 20px; top: 42px; }
+#content .kefu_serve .kefu_item_list li{ width: 292px; height: 137px; border: 1px solid #ffffff; float: left; margin-right: 32px; position: relative;}
+#content .kefu_serve .col1_a_bg{ width: 292px; height: 136px;  }
+#content .kefu_serve h3{ font-size: 15px; line-height: 15px; padding: 10px 0 0 20px; }
+
+#content .kefu_item_list{ overflow: hidden; _zoom:1; position: absolute; left: 12px; top: 75px; }
+#content .kefu_item_list ul{ list-style: none; }
+#content .kefu_item_list li{ width: 240px; height: 170px; float: left; margin-right: 4px; position: relative;}
+#content .kefu_item_list .textarea{ width: 176px; height: 86px; font-size: 14px; line-height: 86px; text-indent: 4px; resize: none; margin-bottom: 5px;}
+#content .kefu_item_list form p{ float: right; font-size: 12px; margin-right: 10px; /*line-height: 28px; */height: 20px; }
+#content .kefu_item_list .ask_btn1{ width: 30px; height: 20px; margin-right: 10px; background: url(../img/index/sy_bt_tiwen_3019.gif)no-repeat; border: none; }
+#content .kefu_serve .col2{ background: url(../img/个人业务/pic_znfw201.jpg)no-repeat; }
+#content .kefu_serve form{ position: absolute; left: 84px; top: 14px; }
+
+#content .kefu_serve .wx_erweima{ float: left; width: 110px; text-align: center;}
+#content .kefu_serve .wx_erweima img{ width: 110px; height: 108px; }
+#content .kefu_serve .wx_erweima p{ font-size: 14px; line-height: 28px;}
+#content .kefu_serve .guanzhu_r{ float: right; width: 150px; padding-right: 25px;}
+#content .kefu_serve .guanzhu_r img{ width: 150px; height: 48px; margin-bottom: 5px; border-top: 1px solid #fff;}
+#content .kefu_item_list li.last{ border: none; }

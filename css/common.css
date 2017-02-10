@@ -1,0 +1,144 @@
+/* 初始化 */
+*{ margin: 0; padding: 0; }
+a{ text-decoration: none; }
+ul, ol{ list-style: none; }
+
+/* 布局样式 */
+#header{ height: 44px; background: #c7000a; margin-bottom: 1px; position: relative;}
+
+#nav{ height: 83px; border-top: 2px solid #e4e4e4; margin-bottom: 1px; background: #eeeeee; position: relative;}
+
+#bannar{ height: 315px; position: relative;}
+
+#content .select{ height: 21px; margin: 20px 0px; }
+#content .select input{ box-shadow: 0 1px #ccc;  }
+
+#footer{ height: 80px; border-top: 4px solid #c7000a; background: #eeeeee; position: relative;}
+
+/* 公共样式 */
+.clear{ overflow: hidden; _zoom:1; }
+.fl{ float: left; }
+.fr{ float: right; }
+
+#header .search{ position: absolute; left: 446px; top: 10px;}
+#header .search .text{ width: 142px; height: 24px; padding: 0 10px; margin-right: 8px; font-size: 13px; font-weight: bold; background: url(../img/index/search.png) no-repeat  left top; border: none; }
+#header .search .ss_btn{ margin-right: 8px;}
+#header .search .ss_btn, #header .search .gjss_btn{ height: 24px; padding: 0 6px; font-size: 13px; border: 1px solid #a30008; border-radius: 8px; background: #fff; cursor: pointer;}
+#header .search form{ height: 24px; line-height: 24px; }  /* form 在chrome中,默认 height:37px*/
+
+#header .header_link p{ display: inline-block; height: 24px; line-height: 28px; color: #fff; font-size: 12px; position: absolute;right: 184px; top: 10px; }
+#header .header_link a{ text-decoration: none; color: #fff; margin-right: 14px;}
+#header .header_link .rfzp{ margin-right: 6px; }
+
+#nav .logo{display: inline-block; position: absolute; left:176px; top: 35px;}
+#nav .logo, #nav .logo img{ width: 425px; height: 34px;}
+#nav .nav_menu{ position: absolute; left: 692px; top: 46px; }
+#nav .nav_menu li.menu_li{ float: left; margin-right: 21px;}
+#nav .nav_menu a.menu_link{ display: inline-block; text-decoration: none; color: #313030; font-size: 16px; padding: 10px 15px 5px 15px; border-radius: 10px 10px 0 0; position: relative;}
+#nav .nav_menu a.active, #nav .nav_menu a.menu_link:hover{ color: #b30000; background: #ccc;}
+#nav .nav_menu .index{ margin-right: 50px; }
+
+#bannar a.bannar_img img{ width: 1351px; height: 315px;}
+.bannar_load{ width: 230px; background: #d1cfcc; position: absolute; left: 188px; top: 0; z-index: 3;}
+.bannar_load .bannar_load_con{ width: 196px; padding: 0 17px;}
+.bannar_load .login{ display: inline-block; width: 196px; padding: 20px 17px 0 17px; height: 30px; margin-bottom: 10px; border-bottom: 1px solid #c7000a;}
+.bannar_load .login img{ width: 95px; height: 30px; }
+.bannar_load .gr_login,.bannar_load .qy_login{ margin-bottom: 10px; background: #fff;}
+.bannar_load .gr_login_link,.bannar_load .qy_login_link{ padding: 10px; text-align: center; line-height: 18px;}
+.bannar_load .gr_login img, .bannar_load .qy_login img{ width: 196px; height: 31px; }
+.bannar_load .gr_login_link a, .bannar_load .qy_login_link a{ text-decoration: none; color: #000; font-size: 12px;}
+.bannar_load .btn_shop{ margin: 0 0 10px 17px; width: 196px; height: 44px; }
+
+#bannar .bannar_dot{ width: 188px; height: 19px; line-height: 19px; text-align: center; position: absolute; left: 676px; bottom: 5px;} 
+#bannar .bannar_dot .kv_img{ width: 10px; height: 19px; } 
+#bannar .bannar_dot .dot_img{ width: 7px; height: 7px; margin-right: 10px;} 
+
+/*侧边客户服务*/
+#content .fuwu{width: 270px; position: fixed; right: -220px; bottom: 300px; z-index: 999; margin-bottom: 15px;}
+#content .fuwu .znfu_you{ width: 50px; height: 100px;}
+.fuwu_hover{ /*position: absolute;*/ width: 190px; height: 78px; padding: 10px 8px 12px 22px; background: #e4e4e4; }
+.fuwu_hover textarea{ width: 162px; height: 42px; margin-bottom: 10px; text-indent: 4px; resize: none; line-height: 42px; font-size: 12px; }
+.fuwu_hover p{ font-size: 12px; line-height: 32px;}
+.fuwu_hover span{ font-size: 12px; color: #808080; margin-right: 2px; }
+.fuwu_hover p input{ width: 82px; height: 32px; cursor: pointer; background: url(../img/index/icon_tiwen.gif)no-repeat; border: none; }
+
+
+#content a.erweima{ display: block; width: 50px; height: 50px; background: url(../img/index/erweima.jpg)no-repeat; position: fixed; right: 0; top: 385px; z-index: 999;}
+#content a.erweima:hover{ width: 95px; height: 94px; background: url(../img/index/erweima2.png)no-repeat; }
+
+#content .select{ text-align: center;}
+#content select{ width: 182px; height: 30px; font-size: 14px;}
+
+#footer .footer_link{ line-height: 14px; font-size: 14px; width: 888px; position: absolute; left: 168px; top: 37px; }
+#footer .footer_link a{ text-decoration: none; color: #000; font-size: 12px; padding: 0 18px; border-right: 1px solid #000; }
+#footer .footer_link .last{ border-right: none; cursor: default;}
+#footer .footer_link span{ float: right; font-size: 12px;}
+#footer .yanzheng{ position: absolute; right: 180px; top: 25px; }
+#footer .yanzheng img{ width: 99px; height: 37px; }
+
+/* web_bank */
+#content .web_bank{ width: 998px; height: 184px; margin-bottom: 10px; border-left: 1px solid #cbcbcb; border-right: 1px solid #cbcbcb; border-bottom: 1px solid #fff; background: url(../img/index/mainboxbg.gif) repeat-x; position: relative;}
+#content .web_bank .flag01{ width: 35px; height: 34px; position: absolute; left: -2px; top: -2px; }
+#content .web_bank .flag02{ width: 30px; height: 66px; position: absolute; right: -18px; bottom: -5px; }
+#content .wb_menu{ font-size: 14px; position: absolute; left:30px; top: 22px; }
+#content .wb_menu a{ font-size: 14px; color: #000; padding-bottom: 8px; cursor: default;}
+#content .wb_menu a.active{  border-bottom: 2px solid #a7000c; font-weight: bold;}
+#content .wb_list{ position: absolute; left: 30px; top: 70px; }
+#content .wb_list li{ float: left; text-align: center;font-size: 12px; color: #000; }
+#content .wb_list a{ display: inline-block; width: 105px; padding-top: 68px; color: #000;}
+#content .wb_list a:hover{ color: #a7000c; }
+
+/* info */
+#content .info_title{ height: 14px; padding-top: 22px; margin-bottom: 25px;}
+#content .info_title p{ font-size: 14px; position: relative;}
+#content .info_title strong{ font-size: 14px; float: left; font-weight: normal; padding-bottom: 6px;}
+#content .info_title .active{ font-weight: bold; border-bottom: 2px solid #a7000c;}
+#content .info_title strong a{ font-size: 14px; color: #000; }
+#content .info_title strong a:hover{ color: #a7000c; text-decoration: none; }
+#content .info_title a{ text-decoration: none; font-size: 12px; float: right; color: #000;}
+#content .info_title a:hover, #content .info .info_list a:hover{ text-decoration: underline; color: #a7000c;}
+#content .info_list li{ height: 27px; line-height: 27px; font-size: 12px; padding-left: 10px; background: url(../img/index/icon_news.gif)no-repeat left 10px; }
+#content .info_list a{ color: #000;}
+#content .info_list a:hover{ text-decoration: underline; color: #a7000c;}
+#content .info_list span{ float: right; }
+
+/* lunbo */
+/*a,img{border:0;}*/
+/*body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}*/
+ 
+/* flexslider */
+.flexslider{position:relative;height:316px;overflow:hidden;background:url(../img/index/kv_li.png) 50% no-repeat;}
+.slides{position:relative;z-index:1;}
+.slides li{height:316px;}
+.flex-control-nav{position:absolute;bottom:10px;z-index:2;width:100%;text-align:center;}
+.flex-control-nav li{display:inline-block;width:14px;height:14px;margin:0 5px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:14px;height:14px; padding-top: 15px; line-height:40px;overflow:hidden;background:url(../img/index/kv_li_on.png) right 0 no-repeat;cursor:pointer;}
+.flex-control-nav .flex-active{background-position:0 0;}
+ 
+.flex-direction-nav{position:absolute;z-index:3;width:100%;top:45%;}
+.flex-direction-nav li a{ text-indent: 999px; display:block;width:50px;height:50px;overflow:hidden;cursor:pointer;position:absolute;}
+.flex-direction-nav li a.flex-prev{left:570px; top: 127px; background:url(../img/index/kv_left.gif) center center no-repeat;}
+.flex-direction-nav li a.flex-next{right:570px; top: 127px; background:url(../img/index/kv_right.gif) center center no-repeat;}
+/* lunbo end */
+
+/* 导航菜单移入移出 */
+.nav_hover{ display: none; width: 710px; height: 247px; padding: 22px 30px; z-index: 20; background: #ededed;  border-top: 6px solid #c7000a; position: absolute; left: -250px; bottom: -297px;}
+.nav_hover ul{ list-style: none;}
+.nav_hover li{ height: 50px; line-height: 50px; padding-left: 10px; font-size: 12px; }
+.nav_hover li a{ margin-right: 15px; padding-left: 8px; text-decoration: none; font-size: 12px; color: #000; background: url(../img/index/nav_arrow.gif)no-repeat left center;}
+.nav_hover li a:hover{ color: #c7000a; }
+.nav_hover .img1{ width: 700px; height: 130px; position: absolute; right: 40px; bottom: 42px;}
+.nav_hover .img2{ width: 65px; height: 65px; position: absolute; right: -5px; bottom: -5px;}
+
+.nav_gr_hover{ position: absolute; left: -230px; bottom: -297px; }
+.nav_qy_hover{ position: absolute; left: -200px; bottom: -297px; }
+.nav_gh_hover{ position: absolute; left: -170px; bottom: -297px; }
+.nav_kf_hover{ position: absolute; left: -180px; bottom: -297px; }
+
+/*bannar 个人网上银行*/
+.bannar_load_con .bannar_web_bank{ cursor: pointer; position: relative; }
+.bannar_gr_hover{ display: none; width: 196px; height: 196px; background: #efefef; position: absolute; left: 0px; top: 30px;}
+.bannar_gr_hover ul{ padding: 12px 0 0 22px; list-style: none; }
+.bannar_gr_hover li{ height: 30px; line-height: 30px; font-size: 12px; }
+.bannar_gr_hover li a{ text-decoration: none; font-size: 12px; color: #000; display: inline-block; width: 80px; }
+.bannar_gr_hover li a:hover{ color: #c7000a; }

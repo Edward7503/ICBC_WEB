@@ -1,0 +1,150 @@
+/* 布局样式 */
+#content{ padding: 20px 176px; background: #d3d3d3; position: relative;}
+
+#content .info{ overflow: hidden; _zoom:1; width: 1000px; margin-bottom: 10px; }
+#content .info_activity{ float: left; width: 435px; padding: 0 30px; border: 1px solid #fff; background: #eeeeee;}
+
+#content .product, #content .invest{ width: 992px; padding: 0 3px; margin-bottom: 10px; border: 1px solid #fff; background: #eeeeee; position: relative; height: 269px; }
+
+#content .icbc_info_serve{ overflow: hidden; _zoom:1; width: 998px;}
+#content .icbc_info_serve .icbc_info{ float: left; width: 435px; padding: 0 30px; box-shadow: inset 0 -1px #bcbcbc; border: 1px solid #cbcbcb; border-top: 1px solid #c7000a; height: 356px; background: #fff;}
+#content .icbc_info_serve .icbc_serve{ float: right; width: 435px; padding: 0 30px; box-shadow: inset 0 -1px #bcbcbc; border: 1px solid #cbcbcb; border-top: 1px solid #c7000a; height: 356px; background: #fff;}
+
+#content .info_list_hover ul{ display: none; }
+#content .info_title .jiange{ float: left; position: relative; top: 4px; }
+#content .info_list_hover ul.info_list1{ display: block;}
+/*#content .info_list_hover ul.info_list2{ display: block;}*/
+
+#content .bank_item_section .info_title{ height: 14px; padding: 10px 0 18px 14px; margin-bottom: 0;}
+#content .bank_item_section{ overflow: hidden; _zoom:1; width: 473px; height: 250px; padding: 0 10px; border: 1px solid #fff; margin-bottom: 10px; background: #eeeeee;}
+#content .bank_item_section .item_left{ float: left; width: 265px; height: 198px; }
+#content .bank_item_section .il_top{ width: 263px; height: 135px; border: 1px solid #fff; margin-bottom: 1px; position: relative; left: 0px; top: 0px;}
+#content .bank_item_section .il_bottom{ width: 263px; height: 60px; }
+#content .bank_item_section .bank_item_list li{ width: 263px; height: 135px; float: none; position: relative; margin:0; }
+#content .bank_item_section .bank_item_list .col1_bg{ background: url(../img/个人业务/pic_js22.jpg)no-repeat; }
+#content .bank_item_section .bank_item_list .col2_bg{ background: url(../img/个人业务/pic_gj22.jpg)no-repeat; }
+#content .bank_item_section .bank_item_list .col3_bg{ background: url(../img/个人业务/pic_yhk22.jpg)no-repeat; }
+#content .bank_item_section .bank_item_list .col4_bg{ background: url(../img/个人业务/pic_jq22.jpg)no-repeat; }
+#content .bank_item_section .bank_item_list .col5_bg{ background: url(../img/个人业务/pic_sr22.jpg)no-repeat; }
+#content .bank_item_section .bank_item_list div{ width: 233px; position: absolute; left: 10px; bottom: 0;}
+
+#content .bank_item_section .item_right{ float: right; width: 198px; height: 198px; }
+#content .bank_item_section .ir_top{ width: 198px; height: 65px; border-bottom: 1px solid #cccccc; }
+#content .bank_item_section .ir_top div{ float: left; width: 95px; height: 64px; margin-right: 4px;}
+#content .bank_item_section .ir_top p{ font-size: 12px; line-height: 24px; padding-left: 15px; background: url(../img/个人业务/icon_back2.gif)no-repeat left 4px;}
+#content .bank_item_section .ir_top a{ color: #000; font-size: 12px; }
+#content .bank_item_section .ir_top a:hover{ color: #a7000c; }
+#content .bank_item_section .ir_bottom{ width: 198px; height: 132px; 333 }
+#content .bank_item_section .ir_bottom p{ font-size: 12px; line-height: 14px; margin: 15px 0 6px 6px; font-weight: bold;}
+#content .bank_item_section .ir_bottom li{ height: 25px; line-height: 25px; }
+
+#content a:hover{ color: #a7000c; }
+
+/* 结构样式 */
+#content .wb_list ul{ display: none; }
+#content ul.wb_list1 { display: block; }
+#content .wb_list1 .col1{ background: url(../img/index/n1.gif)no-repeat center top; }
+#content .wb_list1 .col2{ background: url(../img/index/etz1.gif)no-repeat center top; }
+#content .wb_list1 .col3{ background: url(../img/index/n2.gif)no-repeat center top; }
+#content .wb_list1 .col4{ background: url(../img/index/n3.gif)no-repeat center top; }
+#content .wb_list1 .col5{ background: url(../img/index/icon7.gif)no-repeat center top; }
+#content .wb_list1 .col6{ background: url(../img/index/n5.gif)no-repeat center top; }
+#content .wb_list1 .col7{ background: url(../img/index/n6.gif)no-repeat center top; }
+#content .wb_list1 .col8{ background: url(../img/index/icon6.gif)no-repeat center top; }
+#content .wb_list1 .col9{ background: url(../img/index/n9.gif)no-repeat center top; }
+
+/*#content ul.wb_list2{ display: block; }*/
+#content .wb_list2 .col1{ background: url(../img/index/fn1.gif)no-repeat center top; }
+#content .wb_list2 .col2{ background: url(../img/index/fn2.gif)no-repeat center top; }
+#content .wb_list2 .col3{ background: url(../img/index/fn3.gif)no-repeat center top; }
+#content .wb_list2 .col4{ background: url(../img/index/fn4.gif)no-repeat center top; }
+#content .wb_list2 .col5{ background: url(../img/index/fn5.gif)no-repeat center top; }
+#content .wb_list2 .col6{ background: url(../img/index/jsq1.gif)no-repeat center top; }
+#content .wb_list2 .col7{ background: url(../img/index/fn7.gif)no-repeat center top; }
+#content .wb_list2 .col8{ background: url(../img/index/fn8.gif)no-repeat center top; }
+#content .wb_list2 .col9{ background: url(../img/index/fn9.gif)no-repeat center top; }
+
+#content .invest .bank_item_list{ overflow: hidden; _zoom:1; position: absolute; left: 12px; top: 75px; }
+
+/* js 部分的效果*/
+/* 理财交易*/
+#content .bank_item_list2 ul{ display: none; }
+#content .invest .bank_item_hover1{ display: block;}
+#content .invest .bank_item_hover1 .col1{ background: url(../img/index/gjs2.jpg)no-repeat; }
+#content .invest .bank_item_hover1 .col2{ background: url(../img/index/jj1.jpg)no-repeat; }
+#content .invest .bank_item_hover1 .col3{ background: url(../img/index/gjs3.jpg)no-repeat; }
+#content .invest .bank_item_hover1 .col4{ background: url(../img/index/gjs4.jpg)no-repeat; }
+
+/*#content .invest .bank_item_hover2{ display: block;}*/
+#content .invest .bank_item_hover2 .col1{ background: url(../img/index/zg2.jpg)no-repeat; }
+#content .invest .bank_item_hover2 .col2{ background: url(../img/index/qy2.jpg)no-repeat; }
+#content .invest .bank_item_hover2 .col3{ background: url(../img/index/jg1.jpg)no-repeat; }
+#content .invest .bank_item_hover2 .col4{ background: url(../img/index/3.jpg)no-repeat; }
+
+/*#content .invest .bank_item_hover3{ display: block;}*/
+#content .invest .bank_item_hover3 .col1{ background: url(../img/index/jjn1.jpg)no-repeat; }
+#content .invest .bank_item_hover3 .col2{ background: url(../img/index/zq4.jpg)no-repeat; }
+#content .invest .bank_item_hover3 .col3{ background: url(../img/index/jj3.jpg)no-repeat; }
+#content .invest .bank_item_hover3 .col4{ background: url(../img/index/2.jpg)no-repeat; }
+
+/*#content .invest .bank_item_hover4{ display: block;}*/
+#content .invest .bank_item_hover4 .col1{ background: url(../img/index/wh3.jpg)no-repeat; }
+#content .invest .bank_item_hover4 .col2{ background: url(../img/index/bx2.jpg)no-repeat; }
+#content .invest .bank_item_hover4 .col3{ background: url(../img/index/sr3.jpg)no-repeat; }
+#content .invest .bank_item_hover4 .col4{ background: url(../img/index/wh4.jpg)no-repeat; }
+
+/*#content .invest .bank_item_hover5{ display: block;}*/
+#content .invest .bank_item_hover5 .col1{ background: url(../img/index/zhq1.jpg)no-repeat; }
+#content .invest .bank_item_hover5 .col2{ background: url(../img/index/zhq2.jpg)no-repeat; }
+#content .invest .bank_item_hover5 .col3{ background: url(../img/index/zhq3.jpg)no-repeat; }
+#content .invest .bank_item_hover5 .col4{ background: url(../img/index/zhq4.jpg)no-repeat; }
+
+/*#content .invest .bank_item_hover6{ display: block;}*/
+#content .invest .bank_item_hover6 .col1{ background: url(../img/index/bxn1.jpg)no-repeat; }
+#content .invest .bank_item_hover6 .col2{ background: url(../img/index/bxn2.jpg)no-repeat; }
+#content .invest .bank_item_hover6 .col3{ background: url(../img/index/wh2.jpg)no-repeat; }
+#content .invest .bank_item_hover6 .col4{ background: url(../img/index/1.jpg)no-repeat; }
+
+/*#content .invest .bank_item_hover7{ display: block;}*/
+#content .invest .bank_item_hover7 .col1{ background: url(../img/index/jrsc_1.gif)no-repeat; }
+#content .invest .bank_item_hover7 .col2{ background: url(../img/index/jrsc_2.gif)no-repeat; }
+#content .invest .bank_item_hover7 .col3{ background: url(../img/index/jrsc_3.gif)no-repeat; }
+#content .invest .bank_item_hover7 .col4 .col4_img{ padding: 14px 0 0 20px; }
+#content .invest .bank_item_hover7 .col4_img a{ display: inline-block; margin-bottom: 15px;}
+#content .invest .bank_item_hover7 .col4 h4{ font-size: 14px;}
+/* 投资理财 end*/
+
+
+#content .bank_item_menu{ height: 49px; border-bottom: 1px solid #dadada; position: relative;}
+#content .bank_item_menu p{ font-size: 14px; position: absolute; left: 25px; top: 22px; }
+#content .bank_item_menu strong{ margin-right: 44px; font-size: 14px;}
+#content .bank_item_menu a{ padding-bottom: 8px; padding-top: 3px; color: #000; font-size: 12px; margin-right: 40px;}
+#content .bank_item_menu a:hover{ border-bottom: 2px solid #c7000a; }
+#content .bank_item_menu a.active{ color: #c8000a; border-bottom: 2px solid #c7000a; }
+#content .bank_item_list{ overflow: hidden; _zoom:1; position: absolute; left: 12px; top: 75px; }
+#content .bank_item_list li{ width: 240px; height: 170px; float: left; margin-right: 4px; position: relative;}
+
+#content .bank_item_list .col1_a_bg{ display: inline-block; width: 240px; height: 170px; }
+#content .bank_item_list div.bil_text{ width: 210px; height: 20px; padding: 20px 15px; position: absolute; left: 0; bottom: 0; background: rgba(248,248,248,0.5); }
+#content .bank_item_list strong{ font-size: 13px; }
+#content .bank_item_list div a{ color: #000; font-size: 12px; }
+#content .bank_item_list div a:hover{ color: #a7000c; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

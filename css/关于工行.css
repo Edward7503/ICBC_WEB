@@ -1,0 +1,87 @@
+/* 布局样式 */
+#content{ clear: both; padding: 20px 176px; background: #d3d3d3; position: relative;}
+
+#content  a{ text-decoration: none; font-size: 12px; color: #000; }
+#content a:hover{ color: #a7000c; }
+#content h3.title{ font-size: 14px; line-height: 14px;}
+#content h3.title a{ float: right; font-weight: normal;}
+
+#content .main_section{ width: 328px; margin-bottom: 10px; padding-bottom: 15px; background: #f2f2f2;  border-left: 1px solid #cbcbcb; border-right: 1px solid #cbcbcb;  }
+#content .main_section h3{ padding: 22px 30px 12px 30px; border-bottom: 1px solid #cacaca; background: url(../img/关于工行/bggh.jpg) repeat-x;}
+#content .main_con{ width: 268px; /*height: 138px;*/ padding: 15px 30px; border-top: 1px solid #e7e7e7; }
+#content .main_con p{ line-height: 20px; font-size: 12px; text-indent: 1em; }
+#content .main_con p a{ text-decoration: none; color: #a7000c; font-size: 12px; }
+#content .main_con ul{ list-style: none; }
+#content .main_con li{ font-size: 12px; height: 22px; line-height: 22px; padding-left: 15px; background: url(../img/关于工行/nav_arrow_001.gif)no-repeat 6px 8px;}
+
+/* 结构样式 */
+#header .search{ position: absolute; left: 446px; top: 10px;}
+#header .search .text{ width: 142px; height: 24px; padding: 0 10px; margin-right: 8px; font-size: 13px; font-weight: bold; background: url(../img/index/search.png) no-repeat  left top; border: none; }
+#header .search .ss_btn{ height: 24px; padding: 0 6px; margin-right: 8px; font-size: 13px; border: 1px solid #a30008; border-radius: 8px; background: #fff; cursor: pointer;}
+#header .search .gjss_btn{ height: 24px; padding: 0 6px; font-size: 13px; border: 1px solid #a30008; border-radius: 8px; background: #fff; cursor: pointer;}
+#header .search form{ height: 24px; line-height: 24px; }  /* form 在chrome中,默认 height:37px*/
+
+#header .header_link p{ display: inline-block; height: 24px; line-height: 28px; color: #fff; font-size: 12px; position: absolute;right: 184px; top: 10px; }
+#header .header_link a{ text-decoration: none; color: #fff; margin-right: 14px;}
+#header .header_link .rfzp{ margin-right: 6px; }
+
+#content .side{ width: 328px; }
+#content .side_section{ width: 268px; padding: 22px 30px 0 30px; height: 172px; margin-bottom: 10px; border-left: 1px solid #cbcbcb; border-right: 1px solid #cbcbcb; background: url(../img/关于工行/bgghleft.jpg)repeat-x; background-color: #f2f2f2; }
+#content .side_section_ad{ width: 33px; height: 100px; margin-bottom: 10px; }
+#content .main{ width: 666px;  }
+#content .main_section_ad{ width: 666px; height: 100px; margin-bottom: 10px;}
+
+#content .gx_con{ margin-top: 24px; }
+#content .gx_con ul{ list-style: none; }
+#content .gx_con li{ height: 30px; line-height: 30px; border-bottom: 1px dotted #999999; }
+#content .gx_con .last{ border-bottom: none; }
+#content .gx_con li a{ display: inline-block; width: 70px; padding-left: 12px; background: url(../img/关于工行/icon_hidden.png)no-repeat 2px center; }
+#content .gx_con li a:hover{ color: #a7000c; }
+
+#content .zyfz_con{ margin-top: 30px; }
+#content .zyfz_con img{ width: 80px; height: 80px; border: 1px solid #dbdbdb; }
+#content .zyfz_con .text{ width: 170px; height: 82px; }
+#content .zyfz_con .text p{ text-indent: 2em; line-height: 1.5em; font-size: 12px; margin-bottom: 5px;}
+#content .zyfz_con .text a{ text-decoration: none; font-size: 12px; color: #d10000; margin-right: 12px; }
+
+#content .yjjl_con{ margin-top: 24px; }
+#content .yjjl_con ul{ list-style: none; }
+#content .yjjl_con li{ height: 30px; line-height: 30px; }
+#content .yjjl_con .last{ border-bottom: none; }
+#content .yjjl_con li a{ display: inline-block; width: 70px; padding-left: 12px; background: url(../img/关于工行/icon_hidden.png)no-repeat 2px center; }
+#content .yjjl_con li a:hover{ color: #a7000c; }
+#content .yjjl_con span{ float: right; font-size: 12px; }
+
+#content .ghjg_con{ margin-top: 24px; }
+#content .ghjg_con li.add{ height: 66px; }
+#content .ghjg_con li.add a{ background-image: none; padding: 0;}
+#content .ghjg_con p{ font-size: 12px; line-height: 18px;}
+#content .ghjg_con ul{ list-style: none; }
+#content .ghjg_con li{ height: 30px; line-height: 30px; border-bottom: 1px dotted #999;}
+#content .ghjg_con .last{ border-bottom: none; }
+#content .ghjg_con li a{ display: inline-block; padding-left: 12px; background: url(../img/关于工行/icon_hidden.png)no-repeat 2px center; }
+#content .ghjg_con li a:hover{ color: #a7000c; }
+
+#content .ghjj_section{ width: 663px; }
+#content .ghjj_section h3 a{ float: left; }
+#content .ghjj_section span{ float: left; }
+#content .ghjj_con{ width: 603px; }
+
+#content .main_con .caiwu_img{ width: 66px; height: 90px; }
+#content .caiwu_con .text{ width: 190px; padding-top: 15px; }
+#content .pinpai_con .text, #content .zeren_con .text{ width: 170px; }
+
+#content .pinpai_con img, #content .zeren_con img{ width: 80px; height: 109px; }
+
+#content .gszl_con p{ font-size: 12px; line-height: 1.5em; text-indent: 2em; }
+#content .gszl_con a{ text-decoration: none; color: #a7000c; margin-right: 10px;}
+#content .gszl_con a:hover{ color: #a7000c; }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+/* 内容公用样式*/
+#content .bank_item_menu{ height: 49px; border-bottom: 1px solid #dadada; position: relative;}
+#content .bank_item_menu p{ font-size: 14px; position: absolute; left: 25px; top: 22px; }
+#content .bank_item_menu strong{ margin-right: 44px; font-size: 14px;}
+#content .bank_item_menu a{ padding-bottom: 8px; padding-top: 3px; color: #000; font-size: 12px; margin-right: 40px;}
+#content .bank_item_menu a:hover{ border-bottom: 2px solid #c7000a; }
+#content .bank_item_menu a.active{ color: #c8000a; border-bottom: 2px solid #c7000a; }
+#content .bank_item_list{ overflow: hidden; _zoom:1; position: absolute; left: 12px; top: 75px; }
+#content .bank_item_list li{ width: 240px; height: 170px; float: left; margin-right: 4px; position: relative;}
+
+#content .bank_item_list .col1_a_bg{ display: inline-block; width: 240px; height: 170px; }
+#content .bank_item_list div.bil_text{ width: 210px; height: 20px; padding: 20px 15px; position: absolute; left: 0; bottom: 0; background: rgba(248,248,248,0.5); }
+#content .bank_item_list strong{ font-size: 13px; }
+#content .bank_item_list div a{ color: #000; font-size: 12px; }
+#content .bank_item_list div a:hover{ color: #a7000c; }
